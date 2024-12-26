@@ -1,0 +1,44 @@
+.wrapper{
+    /* width: 100vw; */
+    /* height: 50vw; */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin: 80px;
+    display: grid;
+    height: fit-content;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(3, auto);
+
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.game_result{
+    font-size: 30px;
+    font-weight: 600;
+}
+.restart_btn{
+    visibility: hidden;
+    font-size: 30px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
