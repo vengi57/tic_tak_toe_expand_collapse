@@ -15,3 +15,37 @@ code {
 .submenu{
   display: none;
 }
+
+.traffic_wrapper{
+  height: 300px;
+  width: 100px;
+  margin-left:20px;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: black;
+  
+}
+.traffic_light{
+  height: 90px;
+  width: 90px;
+  margin:5px;
+  border: 1px solid black;
+  border-radius: 300px;
+}
+
+.dropdown{
+  width: 100px;
+  height: 30px;
+  margin:20px;
+  border-radius: 10px;
+}
+
+.btn{
+  margin-left: 30px;
+  border-radius: 10px;
+  width: 100px;
+}
+.input_box{
+  margin-left: 30px;
+  width: 50px;
+}

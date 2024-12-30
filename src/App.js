@@ -2,6 +2,8 @@ import "./App.css";
 import React, { useState, useRef, useEffect } from "react";
 import ContentBox from "./ContentBox";
 import Dropdown from "./Dropdown";
+import SearchBar from "./SearchBar";
+import TrafficLight from "./TrafficLight";
 
 const App = () => {
   const sampleData = [
@@ -95,6 +97,8 @@ const App = () => {
     <div>
       <ContentBox data={data} expandData={expandData} />
       <Dropdown dropdownData={dropdownData} />
+      <SearchBar />
+      <TrafficLight />
     </div>
   );
 };
